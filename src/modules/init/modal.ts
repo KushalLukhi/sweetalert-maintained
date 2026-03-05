@@ -35,10 +35,14 @@ const resetModalElement = (modal: Element): void => {
 const customizeModalElement = (modal: Element, opts: SwalOptions): void => {
   resetModalElement(modal);
 
-  const { className } = opts;
+  const { className, animation } = opts;
 
   if (className) {
     modal.classList.add(className);
+  }
+
+  if (animation === false) {
+    modal.classList.add('swal-modal--no-animation');
   }
 };
 

@@ -83,7 +83,6 @@ export const DEPRECATED_OPTS: OptionReplacementsList = {
   'showLoaderOnConfirm': {
     replacement: 'buttons',
   },
-  'animation': {},
   'inputType': {
     replacement: 'content',
     link: '/docs/#content',

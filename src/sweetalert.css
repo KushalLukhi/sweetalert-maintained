@@ -41,6 +41,10 @@
       animation: showSweetAlert 0.3s;
       will-change: transform;
     }
+
+    & .swal-modal.swal-modal--no-animation {
+      animation: none;
+    }
   }
 }
 
@@ -112,4 +116,15 @@ Target IE8-IE10 due to incompability with the css `pointer-event` property.
   .swal-modal {
     visibility: hidden;
   }
+}
+
+/* Disable animation when animation option is false */
+.swal-overlay--show-modal .swal-modal.swal-modal--no-animation {
+  animation: none;
+}
+
+.swal-modal--no-animation .swal-icon--success__line,
+.swal-modal--no-animation .swal-icon--error__x-mark,
+.swal-modal--no-animation .swal-icon--warning {
+  animation: none;
 }
