@@ -1,3 +1,7 @@
+> ## Community Maintained Fork
+> This repository is a community-maintained continuation of SweetAlert.
+> Upstream appears inactive; maintenance and fixes continue here.
+
 <p align="center">
   <a href="http://sweetalert.js.org">
     <img alt="SweetAlert" src="https://raw.githubusercontent.com/t4t5/sweetalert/e3c2085473a0eb5a6b022e43eb22e746380bb955/assets/logotype.png" width="300">
